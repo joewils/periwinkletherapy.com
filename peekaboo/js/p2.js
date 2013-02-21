@@ -18,7 +18,7 @@ jQuery(function($) {
 	// Full page background
 	$.supersized({
 		//Background image
-		slides	:  [ { image : 'img/bg1.jpg' } ]
+		slides	:  [ { image : 'img/bg3.jpg' } ]
 	});
 			
 	
