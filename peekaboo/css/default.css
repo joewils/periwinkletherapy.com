@@ -1,0 +1,15 @@
+#logo {
+    font-size:30px;
+    font-weight:bold;
+    width:420px;
+    margin-top:48px;
+}
+
+#logo a {
+    color:white;
+    text-shadow: 2px 2px #666;
+}
+
+#logo a:hover {
+    text-decoration:none;
+}
