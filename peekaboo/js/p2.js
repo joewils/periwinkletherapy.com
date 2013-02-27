@@ -16,10 +16,11 @@ jQuery(function($) {
 			
 
 	// Full page background
-	$.supersized({
+    // <script type="text/javascript" src="js/supersized.3.1.3.core.min.js.donotload"></script>
+	//$.supersized({
 		//Background image
-		slides	:  [ { image : 'img/bg3.jpg' } ]
-	});
+		//slides	:  [ { image : 'img/bg3.jpg' } ]
+	//});
 			
 	
 	// Cufon
@@ -53,7 +54,7 @@ jQuery(function($) {
 
 	
 	// Google Map
-	$("#modalmap").colorbox({iframe:true, innerWidth:"50%", innerHeight:"50%", href:" http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=476+Whitehall+Street+Atlanta,+GA+30303&amp;aq=&sll=33.743594,-84.405288&sspn=0.006129,0.013733&ie=UTF8&hq=&hnear=476+Whitehall+St+SW,+Atlanta,+Georgia+30303&t=h&amp;ll=33.743527,-84.403068&amp;spn=0.02498,0.036478&amp;z=14&iwloc=A&output=embed" });
+	$("#modalmap").colorbox({iframe:true, innerWidth:"50%", innerHeight:"50%", href:"https://maps.google.com/maps/ms?msid=217962229817434978410.0004b681b38ebd8846675&msa=0&ll=47.759407,-116.803551&spn=0.073855,0.105228&iwloc=0004b681b727dc12d9b08&output=embed" });
 });
 
 

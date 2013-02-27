@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% include head.html %}
+<body>
+{% include facebook-sdk.html %}    
+    
+<div id="content-wrapper"> 
+	
+	<!-- Container begin -->
+	<div id="container"> 
+		{% include header.html %}
+		<!-- slide start -->
+		<div id="slide-container"  class="clearfix">
+			<div id="slider-wrapper" class="left">
+				<div id="slider" class="nivoSlider"> <a href="http://themeforest.net?ref=population2" target="_blank"><img src="/peekaboo/img/stock/slide-image-1.jpg" alt="image 1" /></a> <a href="http://graphicriver.net?ref=population2" target="_blank"><img src="/peekaboo/img/stock/slide-image-2.jpg" alt="" title="This is slide image 2" /></a> <a href="http://codecanyon.net?ref=population2" target="_blank"><img src="/peekaboo/img/stock/slide-image-3.jpg" alt="" /></a> <img src="/peekaboo/img/stock/slide-image-4.jpg" alt="" title="#htmlcaption" /> </div>
+				<div id="htmlcaption" class="nivo-html-caption"> Caption with <a href="#">a link</a>. </div>
+			</div>
+			<div id="quickmenu" class="left">
+				<h2 class="replace">Our Programs</h2>
+				<div class="viewport">
+					<ul class="overview">
+                        {% for item in site.programs %}
+                        <li><a href="{{ item.url }}" class="menu-box round_4"> 
+                              <span class="title">{{ item.title }}</span><br/>
+							  {{ item.summary }}<span class="arrow"></span> 
+                            </a>
+                        </li>
+                        {% endfor %}
+					</ul>
+				</div>
+				<a class="buttons prev" href="#">Prev</a> <a class="buttons next" href="#">Next</a> </div>
+		</div>
+		<!-- slide end --> 
+		<!-- Main begin-->
+		<div id="main" class="round_8 clearfix">
+			<div id="home-content" class="left">
+				<h2 class="replace">{{ page.title }}</h2>
+				<div class="intro">
+					{{ content }}
+				</div>
+				<hr />
+				<div class="col_201 alpha">
+					<h3 class="replace">Our Approach</h3>
+					<div class="thumbnail_60_left" style="background: url(&quot;/peekaboo/img/stock/60x60_thumbnail_5.jpg&quot;) repeat;"></div>
+					<p class="landing_col">Nunc quis arcu. Donec ante. Gangsta placerizzle maurizzle stuff lectus. Fo pot eleifend leo malesuada fames ac turpis. </p>
+					<a href="#" class="fancy small">Learn More <img class="arrow" src="/peekaboo/img/nav-right-arrow.png"/></a><br/>
+				</div>
+				<div class="col_201">
+					<h3 class="replace">Active Learning</h3>
+					<div class="thumbnail_60_left" style="background: url(&quot;/peekaboo/img/stock/60x60_thumbnail_4.jpg&quot;) repeat;"></div>
+					<p class="landing_col">Nunc quis arcu. Donec ante. Gangsta placerizzle malesuada fames ac turpis egestas maurizzle stuff lectus. Fo shizzle pot ac turpis. </p>
+					<a href="#" class="fancy small">Learn More <img class="arrow" src="/peekaboo/img/nav-right-arrow.png"/></a><br/>
+				</div>
+				<div class="col_201 omega">
+					<h3 class="replace">Our School</h3>
+					<div class="thumbnail_60_left" style="background: url(&quot;/peekaboo/img/stock/60x60_thumbnail_6.jpg&quot;) repeat;"></div>
+					<p class="landing_col">Nunc quis arcu. Donec ante. Gangsta placerizzle stuff malesuada fames ac turpis egestas lectus. Fo shizzle pot tortor quam. </p>
+					<a href="#" class="fancy small">Learn More <img class="arrow" src="/peekaboo/img/nav-right-arrow.png"/></a><br/>
+				</div>
+			</div>
+			{% include sidebar.html %}
+		</div>
+		<!-- Main end --> 
+        {% include footer.html %}
+	</div>
+	<!-- Container end --> 
+</div>
+    <div>
+        &nbsp;
+    </div>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			effect: 'fade' 		
+		});
+    });
+	// Quick Menu
+	$('#quickmenu').tinycarousel({ 
+		axis: 'y',
+		display: 3, 
+		duration: 500
+	});
+</script> 
+{% include ga.html %}	
+</body>
+</html>

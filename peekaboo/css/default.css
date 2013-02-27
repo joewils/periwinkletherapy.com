@@ -1,8 +1,21 @@
+@font-face {
+    /* http://www.laurenashpole.com/fontcandy.html */
+    font-family: 'candyrandy';
+    src: url('/candyrandy/webfont.eot');
+    src: url('/candyrandy/webfont.eot?#iefix') format('embedded-opentype'),
+         url('/candyrandy/webfont.woff') format('woff'),
+         url('/candyrandy/webfont.ttf') format('truetype'),
+         url('/candyrandy/webfont.svg#candyrandy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 #logo {
-    font-size:30px;
-    font-weight:bold;
+    font-size:28px;
+    font-weight:normal;
+    font-family: 'candyrandy';
     width:430px;
-    margin-top:48px;
+    margin-top:52px;
 }
 
 #logo a {
@@ -11,4 +24,8 @@
 
 #logo a:hover {
     text-decoration:none;
+}
+
+#header {
+    height:222px;
 }

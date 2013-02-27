@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% include head.html %}
+<body>
+{% include facebook-sdk.html %}    
+    
+<div id="content-wrapper"> 
+	
+	<!-- Container begin -->
+	<div id="container"> 
+		{% include header.html %}
+		<!-- Main begin-->
+		<div id="main" class="round_8 clearfix">
+            <div class="page_title round_6">
+				<h1 class="replace">{{ page.title }}</h1>
+			</div>
+			<div id="content" class="left">
+				{{ content }}
+			</div>
+			{% include sidebar.html %}
+		</div>
+		<!-- Main end --> 
+        {% include footer.html %}
+	</div>
+	<!-- Container end --> 
+</div>
+    <div>
+        &nbsp;
+    </div>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			effect: 'fade' 		
+		});
+    });
+	// Quick Menu
+	$('#quickmenu').tinycarousel({ 
+		axis: 'y',
+		display: 3, 
+		duration: 500
+	});
+</script> 
+{% include ga.html %}	
+</body>
+</html>

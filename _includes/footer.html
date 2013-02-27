@@ -1,0 +1,35 @@
+<!-- Footer begin -->
+<div id="footer" class="round_8 clearfix">
+    <div class="col_201">
+        <h4 class="replace">Latest News</h4>
+        <ul class="bullet-list">
+        {% for item in site.news %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col_201">
+        <h4 class="replace">Events</h4>
+        <ul class="bullet-list">
+        {% for item in site.events %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a><span class="date">{{ item.date }}</span></li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col_201">
+        <h4 class="replace">Contact</h4>
+        <address>
+            {{ site.address }}<br/>
+            P: {{ site.phone }}<br/>
+            F: {{ site.fax }}<br/>
+        </address>
+        <a id="modalmap" href="" >Map</a> </div>
+    <div class="col_240">
+        <div class="fb-like" data-href="http://www.facebook.com/PeriwinkleTherapy" data-send="false" data-width="240" data-show-faces="true"></div>
+    </div>
+    
+    <div id="footer-bottom"> <div id="toTop" class="left">Back to Top</div><div id="footer-note" class="right"><small>©2013 <strong>Periwinkle Therapy</strong></small></div>
+        
+    </div>
+</div>
+<!-- Footer end --> 
