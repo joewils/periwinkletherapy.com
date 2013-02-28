@@ -27,8 +27,8 @@ programs:
       summary: Suspendisse risus velit
       url: "#"
 news:
-    - title: Donec ut vestibulum nunc
-      url: "#"
+    - title: "We're working hard to update our website"
+      url: http://www.facebook.com/PeriwinkleTherapy/posts/414822768610204
     - title: Ut malesuada suscipit augue accumsan rutrum
       url: "#"
     - title: Suspendisse non est ut augue dapibus pulvinar
