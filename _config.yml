@@ -5,27 +5,15 @@ address: 1397 N Biztown Loop<br> Hayden, Idaho 83835
 phone: (208) 762-3502
 fax: (888) 310-4824
 programs:
-    - title: Program One
-      summary: Phasellus faucibus tempor
-      url: "#"
-    - title: Program Two
-      summary: Duis lobortis fermentum erat
-      url: "#"
-    - title: Program Three
-      summary: Vivamus viverra arcu pretium
-      url: "#"
-    - title: Program Four
-      summary: Praesent fringilla rutrum augue
-      url: "#"
-    - title: Program Five
-      summary: Vivamus faucibus erat ut lectus
-      url: "#"
-    - title: Program Six
-      summary: Nunc scelerisque elit a lacus
-      url: "#"
-    - title: Program Seven
-      summary: Suspendisse risus velit
-      url: "#"
+    - title: Speech
+      summary: Speech-Language Therapy
+      url: "speech-language-therapy.html"
+    - title: Occupational
+      summary: Occupational Therapy
+      url: "occupational-therapy.html"
+    - title: Physical
+      summary: Physical Therapy
+      url: "physical-therapy.html"
 news:
     - title: "We're working hard to update our website"
       url: http://www.facebook.com/PeriwinkleTherapy/posts/414822768610204
@@ -54,37 +42,5 @@ testimonials:
     - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
       attribution: John Doe
       title: Testimonial 2
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 3
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 4
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 5
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 6
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 7
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 8
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 9
-      url: "#"
-    - quote: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
-      attribution: John Doe
-      title: Testimonial 10
       url: "#"
 --- 
