@@ -29,3 +29,12 @@
 #header {
     height:222px;
 }
+
+#footer .bullet-list {
+    min-height:160px;
+}
+
+.timg {
+    border-right:20px solid white;
+    width:100%;
+}

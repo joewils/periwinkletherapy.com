@@ -1,6 +1,6 @@
 <!-- Header begin-->
 <div id="header" class="clearfix">
-    <div id="logo" ><a href="index.html" class=""><img src="/images/periwinkle.jpg" style="max-width:100%;"/></a></div>
+    <div id="logo" ><a href="index.html" class=""><img src="/images/periwinkle430.jpg" style="max-width:100%;"/></a></div>
     
     <!-- Navigation start -->
     <ul class="sf-menu">
@@ -8,18 +8,18 @@
         </li>
         <li><a href="contact.html">Contact</a>
         </li>
-        <li> <a href="about.html">About</a>
+        <li> <a href="story.html">About</a>
             <ul>
                 <li> <a href="team.html">Team</a></li>
                 <li> <a href="approach.html">Approach</a></li>
                 <li> <a href="office.html">Office</a></li>
-                <li> <a href="programs.html">Programs</a></li>
+                <li> <a href="story.html">Story</a></li>
             </ul>
         </li>
-        <li><a href="programs.html">Programs</a>
+        <li><a href="speech-language-therapy.html">Programs</a>
             <ul>
                 {% for item in site.programs %}
-                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                <li><a href="{{ item.url }}">{{ item.summary }}</a></li>
                 {% endfor %}
             </ul>
         </li>
