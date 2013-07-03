@@ -23,18 +23,19 @@ events:
       date: Summer 2013
 sidebar-testimonial:
     quote: "I can say I have come to feel a genuine friendship with staff and have no doubts that Brianna's progress is nearly as important to her therapists as it is to us."
-    attribution: Naomi Smith
+    attribution: Naomi
+    url: "testimonal1.html"
 testimonials:
     - title: "Hunter and Tanner"
-      url: "martin.html"
-      testimonial: "Hunter and Tanner Martin have been growing through Periwinkle. They have been clients since Periwinkle opened their doors. Both boys are severely autistic and have speech delays. Hunter is non verbal and we were told he'd never be able to communicate, or learn to use any computerized device to communicate. But the ladies at Periwinkle saw potential and now Hunter can speak using an iPad with the Proloqo2go program. Our family feels valued and understood by these wonderful therapists, and we recommend them every chance we get."
-      attribution: "Shelley Martin"
+      url: "testimonal2.html"
+      testimonial: "Hunter and Tanner have been growing through Periwinkle. They have been clients since Periwinkle opened their doors. Both boys are severely autistic and have speech delays. Hunter is non verbal and we were told he'd never be able to communicate, or learn to use any computerized device to communicate. But the ladies at Periwinkle saw potential and now Hunter can speak using an iPad with the Proloqo2go program. Our family feels valued and understood by these wonderful therapists, and we recommend them every chance we get."
+      attribution: "Shelley"
     - title: Brianna
-      url: "smith.html"
+      url: "testimonal1.html"
       testimonial: "Brianna has received Speech Therapy and Occupational Therapy from Periwinkle Children's Therapy since she was 3 years old.  Under the care of Periwinkles' wonderful therapists, she has grown and progressed by leaps.  Periwinkle has a very warm feel and every therapist we have interacted with has been incredibly knowledgeable and caring.  Scheduling is very convenient and they work hard to fit the schedule to families needs and wants.  In the years we have been working with Periwinkle, I can say I have come to feel a genuine friendship with staff and have no doubts that Brianna's progress is nearly as important to her therapists as it is to us.  I would and do recommend Periwinkle to anyone."
-      attribution: "Naomi Smith"
+      attribution: "Naomi"
     - title: "Marcus"
-      url: "anstine.html"
+      url: "testimonal3.html"
       testimonial: "I brought my son, Marcus, to Periwinkle for speech therapy with Michelle when he was about 2 years old.  Marcus was non-verbal and had an Autism diagnosis.  Michelle connected with Marcus immediately!  Her warm personality combined with her skills and techniques stretched his abilities while he had 'fun.'  Her coaching and guidance led us through sign language into verbal communication in a relatively short period of time.  Michelle is a trusted adviser, an advocate for kids, and an absolute specialist in her field.  I can never thank her enough for all she has done for Marcus and our family!"
-      attribution: "Kristy Anstine"
+      attribution: "Kristy"
 --- 
