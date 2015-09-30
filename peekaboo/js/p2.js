@@ -54,7 +54,7 @@ jQuery(function($) {
 
 	
 	// Google Map
-	$("#modalmap").colorbox({iframe:true, innerWidth:"50%", innerHeight:"50%", href:"https://maps.google.com/maps/ms?msid=217962229817434978410.0004b681b38ebd8846675&msa=0&ll=47.759407,-116.803551&spn=0.073855,0.105228&iwloc=0004b681b727dc12d9b08&output=embed" });
+	$("#modalmap").colorbox({iframe:true, innerWidth:"50%", innerHeight:"50%", href:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.42448803858!2d-116.80028899999998!3d47.73441799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5361c0e08ea1a20b%3A0xab90db3d9cda1b77!2s917+W+Canfield+Ave%2C+Coeur+d&#39;Alene%2C+ID+83815!5e0!3m2!1sen!2sus!4v1443626300417" });
 });
 
 
