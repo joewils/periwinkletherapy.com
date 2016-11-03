@@ -22,13 +22,18 @@
 				<h2 class="replace">Our Programs</h2>
 				<div class="viewport">
 					<ul class="overview">
-                        {% for item in site.programs %}
-                        <li><a href="{{ item.url }}" class="menu-box round_4"> 
-                              <span class="title">{{ item.title }}</span><br/>
-							  {{ item.summary }}<span class="arrow"></span> 
-                            </a>
-                        </li>
-                        {% endfor %}
+            {% for item in site.programs %}
+            <li><a href="{{ item.url }}" class="menu-box round_4"> 
+                  <span class="title">{{ item.title }}</span><br/>
+	  							{{ item.summary }}<span class="arrow"></span> 
+                </a>
+            </li>
+            {% endfor %}
+            <li><a href="hiring.html" class="menu-box round_4"> 
+                  <span class="title">We Are Hiring</span><br/>
+	  							Career Opportunities<span class="arrow"></span> 
+                </a>
+            </li>
 					</ul>
 				</div>
 				<a class="buttons prev" href="#">Prev</a> <a class="buttons next" href="#">Next</a> </div>

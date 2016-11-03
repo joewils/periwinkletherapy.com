@@ -11,15 +11,12 @@ programs:
     - title: Occupational
       summary: Occupational Therapy
       url: "occupational-therapy.html"
-    - title: Physical
-      summary: Physical Therapy
-      url: "physical-therapy.html"
 news:
-    - title: "We're working hard to update our website"
-      url: http://www.facebook.com/PeriwinkleTherapy/posts/414822768610204
+    - title: "Facebook Updates"
+      url: http://www.facebook.com/PeriwinkleTherapy/
 events:
-    - title: ""
-      url: "#"
+    - title: "Career Opportunities"
+      url: hiring.html
       date: ""
 sidebar-testimonial:
     quote: "I can say I have come to feel a genuine friendship with staff and have no doubts that Brianna's progress is nearly as important to her therapists as it is to us."
